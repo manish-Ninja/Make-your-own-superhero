@@ -1,40 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make your own superhero.</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
-    <script src="fabric (1).js"></script>
-    <style>
-        body 
-        {
-           background-image: url("avenger_bg (1).jpg");
-        }
-        #my_canvas
-        {
-            background-color: white;
-        }
+	<title>C86 & 87</title>
+<link rel="stylesheet" href="project_c86.css">
 
-    </style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="fabric (1).js"></script>
 </head>
-<body>
-    <center>
-        <br>
-    <button class="btn btn-info" style="font-weight: 900;">SUPERHERO MAKER</button>
-    <br>
-    <br>
-    <button class="btn btn-danger">Current height = <h3 id="lab_height">30</h3> & Current Width = <h3 id="lab_width">30</h3></button>
-    <br>
-    <br>
-    <br>
-    <div class="container">
-    <canvas id="my_canvas" width="1000" height="800" style="border-style: solid; border-color:rgba(221, 193, 34, 0.89); "></canvas>
-    </div>
-</center>
+
+<body class="body_background">
+	<center>
+		<h2 class="btn-primary">SUPERHERO</h2>
+
+		<div id="head_info" class="btn-danger">
+			<h3>Current Width Is <span id="current_width">30</span></h3>
+			<h3>Current Height Is <span id="current_height">30</span></h3>
+		</div>
+
+		<canvas width="1000" height="600" id="myCanvas"></canvas>
+
+	</center>
+	<script src="project_c86.js"></script>
 </body>
 </html>
